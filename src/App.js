@@ -13,6 +13,9 @@ function App() {
       <Home/>
       <About/> {/*TODO - Want to make the about section same height as window screen size*/}
 
+      {/* Education and Experience */}
+      {/* Sample work */}
+      
       <ReachOut/>
     </div>
   )

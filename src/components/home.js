@@ -1,8 +1,8 @@
 import myImage from '../images/me.jpg';
+import Button from '@mui/material/Button';
 import * as Colors from '../theme/colors';
 import * as Fonts from '../theme/fonts/fonts';
 import './home.css';
-import styled from 'styled-components';
 
 function Image(){
     return(
@@ -12,22 +12,31 @@ function Image(){
     )
 }
 
-const Button = styled.button`
-  background-color: #343434;
-  color: white;
-  font-size: 20px;
-  padding: 10px 60px;
-  border-radius: 0px;
-  margin: 10px 0px;
-  cursor: pointer;
-`;
+const buttonStyling = {
+    backgroundColor: "#343434",
+    padding: "1em 1em 1em 1em",
+    width: "215px",
+    height: "45px",
+}
+
+const goToReachOut = () => {
+    alert("clicked");
+}
 
 function QuickInfo(){
     return(
         <div className='Quick-Info'>
             <header> Valerie Wong </header>
             <p> Hello World! </p> 
-            <Button variant="contained"> Reach out </Button>
+
+            {/* TODO - Work on onClick function
+            <Button
+                style={buttonStyling}
+                variant="contained"
+                onClick={goToReachOut}
+            >
+                    Reach Out
+            </Button> */}
         </div>
     );
 }
