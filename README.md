@@ -1,3 +1,7 @@
+# What this project is about
+
+This project was made with the intention of branding myself as a Computer Science student as a portfolio website.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

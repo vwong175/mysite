@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: DMSans;
+  src: url(./theme/fonts/DM_Sans/DMSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: ClearSans;
+  src: url(./theme/fonts/clear-sans/ClearSans-Regular.ttf);
+}
+
+.Home {
+  flex-direction: row;
+}
+
+header {
+  font-family: ClearSans;
+  font-size: 44;
+  font-weight: bold;
+}
+
+p {
+  font-family: DMSans;
+  font-size: small;
+}
