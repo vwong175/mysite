@@ -1,6 +1,16 @@
 .Home {
-    /* text-align: center; */
-    display: flex;
-    flex-direction: row;
-  }
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+
+.Quick-Info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 480px;
+  width: 324px;
+}

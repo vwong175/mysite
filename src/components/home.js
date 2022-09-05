@@ -5,15 +5,9 @@ import './home.css';
 import styled from 'styled-components';
 
 function Image(){
-    const imageStyles = {
-        minWidth: "1.5em",
-        minHeight: "50%",
-        maxHeight: "50%",
-        maxHeight: "50%",
-    }
     return(
         <div className="Image">
-            <img style={imageStyles} src={myImage} className="myImage" alt="Image of Valerie Wong" />
+            <img src={myImage} className="myImage" alt="Image of Valerie Wong" />
         </div>
     )
 }
@@ -30,7 +24,7 @@ const Button = styled.button`
 
 function QuickInfo(){
     return(
-        <div className='Quick-Info' style={{backgroundColor:"blue"}}>
+        <div className='Quick-Info'>
             <header style={{color: Colors.DarkGray, fontSize: 44, fontWeight: 'bold'}}> Valerie Wong </header>
             <p> Hello World! </p> 
             <Button variant="contained" style={{background: Colors.DarkGray, color: Colors.White}}> Reach out </Button>
@@ -38,7 +32,7 @@ function QuickInfo(){
     );
 }
 
-function Home() {
+function Home(){
     return (
       <div className="Home">
           <Image/>
