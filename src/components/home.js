@@ -13,7 +13,7 @@ function Image(){
 }
 
 const Button = styled.button`
-  background-color: Black;
+  background-color: #343434;
   color: white;
   font-size: 20px;
   padding: 10px 60px;
@@ -25,9 +25,9 @@ const Button = styled.button`
 function QuickInfo(){
     return(
         <div className='Quick-Info'>
-            <header style={{color: Colors.DarkGray, fontSize: 44, fontWeight: 'bold'}}> Valerie Wong </header>
+            <header> Valerie Wong </header>
             <p> Hello World! </p> 
-            <Button variant="contained" style={{background: Colors.DarkGray, color: Colors.White}}> Reach out </Button>
+            <Button variant="contained"> Reach out </Button>
         </div>
     );
 }

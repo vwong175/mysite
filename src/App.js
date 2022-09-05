@@ -2,27 +2,19 @@ import logo from './logo.svg';
 import * as React from 'react';
 import './App.css';
 import Home from './components/home';
+import About from './components/about';
+
+import { useState, useEffect } from 'react';
+import ReachOut from './components/reachOut';
 
 function App() {
   return (
-    <Home/>
-  //   <div className="App">
-  //     <header className="App-header">
-  //       <img src={logo} className="App-logo" alt="logo" />
-  //       <p>
-  //         Edit <code>src/App.js</code> and save to reload.
-  //       </p>
-  //       <a
-  //         className="App-link"
-  //         href="https://reactjs.org"
-  //         target="_blank"
-  //         rel="noopener noreferrer"
-  //       >
-  //         Learn React
-  //       </a>
-  //     </header>
-  //   </div>
-  // );
+    <div>
+      <Home/>
+      <About/> {/*TODO - Want to make the about section same height as window screen size*/}
+
+      <ReachOut/>
+    </div>
   )
 }
 

@@ -1,0 +1,12 @@
+.About {
+    background-color: #b4b0ab;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* TODO  - fix boxing of the text */
+.About-text{
+    width: 480px;
+    height: 410px;
+}
